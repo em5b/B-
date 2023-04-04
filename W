@@ -194,6 +194,8 @@ messageDoneFiltering.OnClientEvent:Connect(function(message)
             game.Players.LocalPlayer.Character:WaitForChild("Humanoid"):ChangeState(Enum.HumanoidStateType.Jumping)
         elseif message == "%reset" then
             game.Players.LocalPlayer.Character:WaitForChild("Humanoid").Health = 0
+        elseif message == "%god" then
+            workspace.FallenPartsDestroyHeight = "nan"
         elseif message == "%forcereset" then
             game.Players.LocalPlayer.Character:WaitForChild("Head"):Destroy()
             game.Players.LocalPlayer.Character:WaitForChild("Humanoid").Health = 0
