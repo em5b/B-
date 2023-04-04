@@ -1,4 +1,4 @@
-print ("1te");
+print ("1te2");
 game:GetService("RunService"):Set3dRenderingEnabled(false)
 setfpscap(30)
 local chatEvents = game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents")
